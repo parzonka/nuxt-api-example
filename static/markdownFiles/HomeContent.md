@@ -10,3 +10,21 @@
 - Axios is used as a Nuxt plugin and it is setup with a baseURL for our demo API
 - The menu.js file inside the middleware directory is used to handle closing the mobile dropdown menu once a link is selected
 - I am using Netlify for hosting this example as a static site
+
+### Testing if syntax highlighting works in markdown
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```java
+public void main(String... args) {
+	System.out.println("Hello world!")
+}
+```
